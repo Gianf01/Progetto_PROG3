@@ -1,0 +1,1 @@
+insert into user_account(firstname, lastname, username, password,email,role) values ("Mario", "Rossi","Proprietario1","123","mr@gmail.com","proprietario");

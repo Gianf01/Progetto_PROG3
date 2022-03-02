@@ -1,0 +1,18 @@
+tabella prenotazioni
+insert into prenotazioni(codice_fiscale, check_in, check_out, citta_struttura,numero_persone,tipologia_camera) values ("RSSLRA86D52F839R",'2022-01-01','2022-01-12',"Roma",2,"Doppia");
+insert into prenotazioni(codice_fiscale, check_in, check_out, citta_struttura,numero_persone,tipologia_camera) values ("SPSMHL77M04H703F",'2022-01-07','2022-01-10',"Firenze",1,"Singola");
+insert into prenotazioni(codice_fiscale, check_in, check_out, citta_struttura,numero_persone,tipologia_camera) values ("SPNCRS99T16G478U",'2022-03-02','2022-03-09',"Venezia",1,"Camerata");
+insert into prenotazioni(codice_fiscale, check_in, check_out, citta_struttura,numero_persone,tipologia_camera) values ("GZZMRC83C20G478A",'2022-06-04','2022-06-12',"Oristano",4,"Familiare");
+insert into prenotazioni(codice_fiscale, check_in, check_out, citta_struttura,numero_persone,tipologia_camera) values ("RSSLRA86D52F839R",'2022-05-02','2022-05-07',"Palau",1,"Camerata");
+insert into prenotazioni(codice_fiscale, check_in, check_out, citta_struttura,numero_persone,tipologia_camera) values ("SPNCRS99T16G478U",'2022-11-03','2022-11-07',"Sorrento",1,"Singola");
+insert into prenotazioni(codice_fiscale, check_in, check_out, citta_struttura,numero_persone,tipologia_camera) values ("VRDMTN73E57A944C",'2022-12-09','2022-12-11',"Roma",1,"Singola");
+insert into prenotazioni(codice_fiscale, check_in, check_out, citta_struttura,numero_persone,tipologia_camera) values ("VRDMTN73E57A944C",'2022-09-02','2022-09-11',"Venezia",2,"Doppia");
+
+
+tabella clienti
+insert into clienti(nome, cognome, codice_fiscale, numero_documento) values ("Laura", "Rossi","RSSLRA86D52F839R","AX09345UZ");
+insert into clienti(nome, cognome, codice_fiscale, numero_documento) values ("Michele", "Esposito","SPSMHL77M04H703F","AX09995UV");
+insert into clienti(nome, cognome, codice_fiscale, numero_documento) values ("Christian", "Spinazzola","SPNCRS99T16G478U","VR01295TR");
+insert into clienti(nome, cognome, codice_fiscale, numero_documento) values ("Martina", "Verdi","VRDMTN73E57A944C","SR39204QP");
+insert into clienti(nome, cognome, codice_fiscale, numero_documento) values ("Marco", "Gozzi","GZZMRC83C20G478A","LT93045WA");
+insert into clienti(nome, cognome, codice_fiscale, numero_documento) values ("Giovanna", "Colombo","CLMGNN94S45F052N","RT83036UA"); 
